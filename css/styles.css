@@ -127,6 +127,14 @@ ul{list-style:none;padding:0;margin:0}
 }
 .btn-main:hover{background:var(--accent-light);transform:translateY(-2px);}
 
+.btn-main-two{
+  background:transparent;color:var(--dark);
+  font-size:.78rem;font-weight:400;letter-spacing:2px;text-transform:uppercase;
+  border-radius:1px;transition:background .25s,transform .25s,box-shadow .25s;
+}
+
+.btn-main-two:hover{background: transparent;}
+
 .btn-ghost{
   display:inline-flex;align-items:center;gap:9px;
   padding:13px 28px;border:1px transparent;color:var(--dark);
