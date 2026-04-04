@@ -378,6 +378,7 @@ font-size: 1.1rem;transition: all 0.3s;}
   .feat-card{background:transparent;padding:48px 36px;border-bottom:2px solid var(--accent-light); border-right: 2px solid transparent;}
 }
 
-  @media (max-width: 640px) {
-        .result-slide { min-width: 300px; }
-      }
+@media (max-width: 640px) {
+.result-slide { min-width: 300px;}
+}
+
