@@ -377,4 +377,6 @@ ul{list-style:none;padding:0;margin:0}
   .ftr-bot{flex-direction:column;text-align:center}
   .hero-stats{flex-wrap:wrap;gap:20px}
   .h-stat{min-width:100px}
+  .about-badge{padding: 10px;}
+  .about-badge strong, span{font-size: 1rem;}
 }
