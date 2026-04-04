@@ -41,12 +41,12 @@ ul{list-style:none;padding:0;margin:0}
 ══════════════════════════════════════════ */
 .sh{text-align:center;margin-bottom:56px;}
 .sh h2{
-  font-family:var(--fh);font-size:clamp(2.2rem, 4vw, 3.4rem);font-weight:300;
+  font-family:var(--fh);font-size:clamp(1.8rem, 4vw, 3.4rem);font-weight:300;
   display:flex;align-items:start;justify-content:start;margin-bottom:10px;line-height: 45px; text-align: start;
 }
 
 .sh-light h2{color:var(--dark);}
-.sh-light p{color:var(--accent);font-size:.65rem;gap:3px;margin-bottom:10px;letter-spacing: 1PX;font-weight: 400;}
+.sh-light p{color:var(--accent);font-size:.65rem;gap:3px;margin-bottom:10px;letter-spacing: 1PX;font-weight: 400;display: flex;}
 
 .ba-title{
   color: var(--blue-mid) !important;
