@@ -42,11 +42,11 @@ ul{list-style:none;padding:0;margin:0}
 .sh{text-align:center;margin-bottom:56px;}
 .sh h2{
   font-family:var(--fh);font-size:clamp(2.2rem, 4vw, 3.4rem);font-weight:300;
-  display:flex;align-items:start;justify-content:start;margin-bottom:10px; flex-direction: column;line-height: 65px;
+  display:flex;align-items:start;justify-content:start;margin-bottom:10px;line-height: 45px; text-align: start;
 }
 
 .sh-light h2{color:var(--dark);}
-.sh-light p{color:var(--accent);font-size:.65rem;display:flex;align-items:start;justify-content:start;gap:3px;margin-bottom:10px;letter-spacing: 1PX;font-weight: 400; letter-spacing: 1px;}
+.sh-light p{color:var(--accent);font-size:.65rem;gap:3px;margin-bottom:10px;letter-spacing: 1PX;font-weight: 400;}
 
 .ba-title{
   color: var(--blue-mid) !important;
