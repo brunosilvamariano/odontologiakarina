@@ -122,3 +122,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 }); // end DOMContentLoaded
+
+// Carousel
+    const carousel = document.getElementById('resultsCarousel');
+    const slideWidth = 380 + 24;
+    document.getElementById('prevBtn').addEventListener('click', () => {
+        carousel.scrollBy({ left: -slideWidth, behavior: 'smooth' });
+    });
+    document.getElementById('nextBtn').addEventListener('click', () => {
+        carousel.scrollBy({ left: slideWidth, behavior: 'smooth' });
+    });
